@@ -15,12 +15,13 @@
     "prepare": "husky",
     "lint-staged": "lint-staged --concurrent false",
     "test-all": " npm run check-format && npm run check-lint && npm run check-types && npm run build",
-    "fix-all":"npm run format:fix && npm run lint:fix"
+    "fix-all": "npm run format:fix && npm run lint:fix"
   },
   "dependencies": {
     "next": "14.1.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-icons": "^5.0.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.6.1",
@@ -33,6 +34,7 @@
     "eslint-config-next": "14.1.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "postcss": "^8",
