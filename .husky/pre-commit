@@ -3,7 +3,7 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 # #Lint test
-# npx lint-staged --concurrent false
+npm run lint-staged
 
 #Check tsconfig standards
 npm run check-types || {
