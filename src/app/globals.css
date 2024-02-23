@@ -28,7 +28,16 @@ body {
 	font-style: normal;
 }
 
+p {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	text-align: start;
+}
+
 h2 {
-	font-size: 3.5rem;
+	font-size: 36px;
+	font-style: normal;
 	font-weight: 500;
+	line-height: 46px;
 }

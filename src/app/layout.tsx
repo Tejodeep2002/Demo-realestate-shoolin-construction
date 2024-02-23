@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import React from 'react';
 
 import './globals.css';
 import Navbar from '@/Components/Navbar';
@@ -12,7 +13,7 @@ export default function RootLayout({
 	children,
 }: Readonly<{
 	children: React.ReactNode;
-}>) {
+}>): JSX.Element {
 	return (
 		<html lang="en">
 			<body>

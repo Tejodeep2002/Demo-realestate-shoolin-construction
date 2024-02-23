@@ -1,9 +1,11 @@
 import Image from 'next/image';
 import React from 'react';
+import { SlMouse } from 'react-icons/sl';
+// import { FaArrowDownLong } from 'react-icons/fa6';
 
 const HeroSection = (): React.JSX.Element => {
 	return (
-		<section className="relative h-[90vh] w-full">
+		<section className="relative h-[95vh] w-full ">
 			<div className="absolute left-0 top-0 z-0 h-full w-full">
 				<div className="relative z-0 h-full w-full">
 					<div className="absolute  h-full w-full bg-black opacity-50" />
@@ -16,7 +18,7 @@ const HeroSection = (): React.JSX.Element => {
 					/>
 				</div>
 			</div>
-			<section className="relative z-30 h-full w-full border border-black">
+			<section className="relative z-30 h-full w-full">
 				{/* <section className="h-full w-1/2 border border-white text-white">
 					<div>dwqdq</div>
 					<div>dwa</div>
@@ -27,6 +29,10 @@ const HeroSection = (): React.JSX.Element => {
 					<span>High-Rise Living</span>
 					<span>In Responsibly Priced</span>
 				</section>
+				<span className=" absolute bottom-10 left-1/2 right-1/2 flex animate-bounce flex-col items-center gap-3 opacity-70 ">
+					<SlMouse className="text-[3rem] text-white" />
+					{/* <FaArrowDownLong className="text-[1.2rem] text-white" /> */}
+				</span>
 			</section>
 		</section>
 	);

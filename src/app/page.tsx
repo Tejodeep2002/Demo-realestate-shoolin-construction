@@ -1,6 +1,8 @@
-import AboutSection from '@/Components/HomePage/AboutSection';
-import HeroSection from '@/Components/HomePage/HeroSection';
-import ProjectSection from '@/Components/HomePage/ProjectSection';
+import React from 'react';
+import AboutSection from '@/Components/Pages/HomePage/AboutSection';
+import HeroSection from '@/Components/Pages/HomePage/HeroSection';
+import ProjectSection from '@/Components/Pages/HomePage/ProjectSection';
+import AboutSection2 from '@/Components/Pages/HomePage/AboutSection2';
 
 export default function Home(): JSX.Element {
 	return (
@@ -8,6 +10,7 @@ export default function Home(): JSX.Element {
 			<HeroSection />
 			<ProjectSection />
 			<AboutSection />
+			<AboutSection2 />
 		</main>
 	);
 }
