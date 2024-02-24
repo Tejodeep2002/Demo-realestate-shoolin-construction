@@ -2,7 +2,9 @@ import React from 'react';
 import AboutSection from '@/Components/Pages/HomePage/AboutSection';
 import HeroSection from '@/Components/Pages/HomePage/HeroSection';
 import ProjectSection from '@/Components/Pages/HomePage/ProjectSection';
-import AboutSection2 from '@/Components/Pages/HomePage/AboutSection2';
+
+import FAQ from '@/Components/FAQ';
+import Testimonial from '@/Components/Testimonial';
 
 export default function Home(): JSX.Element {
 	return (
@@ -10,7 +12,8 @@ export default function Home(): JSX.Element {
 			<HeroSection />
 			<ProjectSection />
 			<AboutSection />
-			<AboutSection2 />
+			<FAQ />
+			<Testimonial />
 		</main>
 	);
 }

@@ -4,6 +4,7 @@ import logo from '../../public/logos/logo.png';
 // import { HiMiniDevicePhoneMobile } from 'react-icons/hi2';
 // import { HiOutlineMailOpen } from 'react-icons/hi';
 import { GoArrowUpRight } from 'react-icons/go';
+import { Button } from './ui/button';
 
 const Navbar = (): JSX.Element => {
 	return (
@@ -21,7 +22,7 @@ const Navbar = (): JSX.Element => {
 						</div>
 					</div>
 				</section> */}
-				<section className="flex h-auto w-full justify-center bg-white">
+				<section className="flex h-auto w-full justify-center border-b border-black bg-white">
 					<section className=" mx-32 flex w-full max-w-7xl items-center justify-between bg-white py-2 ">
 						{/* Logo */}
 						<section>
@@ -36,7 +37,7 @@ const Navbar = (): JSX.Element => {
 
 						<section className="flex w-fit items-center gap-12 ">
 							<div>
-								<ul className="flex gap-10">
+								<ul className="flex gap-10 font-poppins">
 									<li>Home</li>
 									<li>About</li>
 									<li>Projects</li>
@@ -46,9 +47,10 @@ const Navbar = (): JSX.Element => {
 							</div>
 							{/* Register Button  */}
 							<div>
-								<button className=" flex items-center  justify-center rounded border border-black bg-primary px-4 py-2 font-semibold text-black">
-									Book Online <GoArrowUpRight className=" text-2xl" />
-								</button>
+								<Button variant={'default'} size={'default'} className="group">
+									Book Online{' '}
+									<GoArrowUpRight className=" text-2xl transition-all  group-hover:-translate-y-2 group-hover:translate-x-3 group-hover:duration-500  group-hover:ease-in-out" />
+								</Button>
 							</div>
 						</section>
 					</section>
