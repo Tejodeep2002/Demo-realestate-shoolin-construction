@@ -1,7 +1,7 @@
 import React from 'react';
-import Projects from '../../Projects';
 import { GoArrowUpRight } from 'react-icons/go';
-import SectionHeading from '@/Components/SectionHeading';
+import SectionHeading from '@/components/SectionHeading';
+import Projects from '@/components/Projects';
 
 const ProjectSection = (): JSX.Element => {
 	return (

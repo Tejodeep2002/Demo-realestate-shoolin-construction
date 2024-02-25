@@ -4,13 +4,13 @@ import {
 	AccordionContent,
 	AccordionItem,
 	AccordionTrigger,
-} from '@/Components/ui/accordion';
+} from '@/components/ui/accordion';
 import Image from 'next/image';
 import SectionHeading from './SectionHeading';
 
 const FAQ = (): React.JSX.Element => {
 	return (
-		<section className="h-auto w-full">
+		<section className="h-auto w-full bg-[#fcf1d9]">
 			<section className="mx-auto h-auto w-full max-w-7xl  py-20">
 				<section className=" h-auto w-full ">
 					<SectionHeading
@@ -28,7 +28,7 @@ const FAQ = (): React.JSX.Element => {
 									className=" aspect-[3/4] w-full rounded-lg"
 								/>
 							</section>
-							<section className="h-auto w-[60%] space-y-10 py-20 pl-20">
+							<section className="flex h-auto w-[60%] flex-col justify-center gap-10 pl-20">
 								<section className="flex h-auto w-full flex-col">
 									<h4>Our Expertise</h4>
 									<Accordion type="single" collapsible className="w-full">
