@@ -42,6 +42,13 @@ const Projects: FC<ProjectProps> = ({ image, status, link }) => {
 			<section className=" h-auto w-full py-5">
 				<div className="flex h-auto w-full flex-col text-black">
 					<span className=" text-2xl">Simon Pandal</span>
+					{/* <div className="h-auto w-full">
+						<p>
+							Experience a symphony of open spaces, natural light, and
+							minimalist aesthetics that reflect the essence of 21st-century
+							design.
+						</p>
+					</div> */}
 					<span className=" flex items-center gap-2 text-sm">
 						<FaLocationDot />
 						Dum Dum/station

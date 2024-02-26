@@ -77,7 +77,10 @@
 		@apply h-screen w-full bg-background font-poppins font-normal text-foreground;
 	}
 	p {
-		@apply text-start font-poppins text-2xl font-normal;
+		@apply text-start font-poppins text-lg font-thin;
+	}
+	h1 {
+		@apply text-5xl font-bold;
 	}
 
 	h2 {
