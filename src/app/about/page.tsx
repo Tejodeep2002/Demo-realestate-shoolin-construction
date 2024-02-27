@@ -1,10 +1,10 @@
-import HeroImageHeading from '@/components/HeroHeading';
+import HeroHeading from '@/components/HeroHeading';
 import React from 'react';
 
 const page = () => {
 	return (
 		<main className="h-auto w-full">
-			<HeroImageHeading heading={'About Us'} />
+			<HeroHeading heading={'About Us'} />
 		</main>
 	);
 };
