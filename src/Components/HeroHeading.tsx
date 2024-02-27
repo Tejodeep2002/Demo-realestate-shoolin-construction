@@ -13,27 +13,6 @@ const HeroHeading: FC<HeroHeadingProps> = ({ heading }) => {
 				<div className="w-full text-sm font-medium ">The Works</div>
 			</div>
 		</section>
-
-		// <section className="relative h-[15rem] w-full ">
-		// 	<section className="h-full w-full">
-		// 		<div className="absolute top-0 h-full w-full bg-black opacity-70 "></div>
-		// 		<Image
-		// 			src={'/picture/pic6.jpg'}
-		// 			width={1000}
-		// 			height={0}
-		// 			className="h-full w-full object-cover"
-		// 			alt={''}
-		// 		/>
-		// 	</section>
-		// 	<section className="absolute top-0 flex h-full w-full items-center justify-center ">
-		// 		<div className="flex  w-fit flex-col items-center text-white">
-		// 			<h1>About</h1>
-		// 			<span className=" text-lg">
-		// 				For each project we establish relationships with partners.
-		// 			</span>
-		// 		</div>
-		// 	</section>
-		// </section>
 	);
 };
 
