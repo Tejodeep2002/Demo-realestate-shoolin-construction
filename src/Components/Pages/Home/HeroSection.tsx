@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
 import { SlMouse } from 'react-icons/sl';
-// import { FaArrowDownLong } from 'react-icons/fa6';
 
 const HeroSection = (): React.JSX.Element => {
 	return (
