@@ -1,17 +1,15 @@
 {
 	"env": {
 		"browser": true,
-		"es2021": true,
-		"jest": true
+		"es2021": true
 	},
 	"extends": [
 		"next",
 		"next/core-web-vitals",
-		"standard-with-typescript",
 		"eslint:recommended",
+		"standard-with-typescript",
 		"plugin:@typescript-eslint/recommended",
 		"plugin:react/recommended",
-		"plugin:jest/recommended",
 		"plugin:react-hooks/recommended",
 		"plugin:import/typescript",
 		"plugin:prettier/recommended",
@@ -31,23 +29,23 @@
 		},
 		"project": "./tsconfig.json"
 	},
-	"plugins": ["react", "@typescript-eslint", "react-hooks", "jest", "prettier"],
+	"plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
 	"rules": {
 		"react/prop-types": "off",
 		"react/react-in-jsx-scope": "off",
+		"react/jsx-uses-react": "off",
+		"react/jsx-props-no-spreading": "off",
 		"@typescript-eslint/explicit-module-boundary-types": "off",
 		"@typescript-eslint/no-unused-vars": "error",
-		"prettier/prettier": "off",
-		"no-shadow": "off",
+		"react-hooks/rules-of-hooks": "error",
+		"react-hooks/exhaustive-deps": "warn",
 		"react/no-unescaped-entities": "off",
+		"prettier/prettier": "warn",
+		"no-unused-vars": "off",
+		"no-shadow": "off",
 		"@next/next/no-page-custom-font": "off",
-		"no-use-before-define": "off",
-		"no-await-in-loop": "warn",
-		"no-eval": "error",
-		"no-implied-eval": "error",
-		"prefer-promise-reject-errors": "warn",
+		"@typescript-eslint/explicit-function-return-type": "off",
 		"@typescript-eslint/strict-boolean-expressions": "off",
-		"@typescript-eslint/consistent-type-definitions": "off",
-		"@typescript-eslint/explicit-function-return-type": "off"
+		"@typescript-eslint/consistent-type-definitions": "off"
 	}
 }
